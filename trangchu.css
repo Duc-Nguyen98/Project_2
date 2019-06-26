@@ -1,0 +1,1117 @@
+/*	
+	Project : Quan Ly Ban Hang
+	Author : Nguyen Quang Duc
+	Date : 16/03/2019
+	version : Sublime Text3
+ */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+    background: #F195B2!important;
+}
+
+a.navbar-brand{
+	color: #ffff!important;
+    font-size: 35px;
+    padding: 0 20px;
+    font-family: tahoma;
+    font-weight: bold;
+}
+
+.navbar-nav li.nav-item a.nav-link{
+    color: #fff!important;
+    font-size: 17px;
+    line-height: 50px;
+    margin-right: 15px;
+    font-family: tahoma;
+    font-weight: bold;
+}
+
+a.dropdown-item {
+    padding: 0.8rem 1.5rem;
+    color: #F195B2!important;
+}
+
+a.dropdown-item:hover {
+    color: #fff!important;
+    text-decoration: none;
+    background: #999999a6!important;
+}
+
+
+.dropdown-menu.show {
+    border: 3px solid #F195B2;
+    margin-top: 3px;
+}
+
+.welcome_bakery_section{
+    background: url(images/anhbanh5.jpg) no-repeat scroll center center;
+    background-size: cover;
+    position: relative;
+    z-index: 3;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 50px 0px;
+}
+
+.welcome_bakery_section:before{
+    content: "";
+    background: url(images/anhnentrai.png) no-repeat scroll center center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 685px;
+    width: 237px;
+    z-index: -1;
+}
+
+.welcome_bakery_section:after{
+    content: "";
+    background: url(images/anhnentrai.png) no-repeat scroll center center;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 701px;
+    width: 250px;
+    z-index: -1;
+}
+
+.welcome_bakery_section_part1 .main_title_welcome_h2{
+    color: #3e606b;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 38px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.welcome_bakery_section_part1 .main_title_p{
+	font-size: 20px;
+    line-height: 30px;
+    font-family: "Lora", serif;
+    color: #242424;
+    margin-bottom: 0px;
+}
+
+.welcome_bakery_section_part1 .main_title_p2{
+    line-height: 26px;
+    color: #797979;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 35px;
+}
+
+.welcome_bakery_section_part1 .image_demo_bakery{
+    max-width: 100%;
+    height: auto;
+}
+
+.welcome_bakery_section_part1 .pink_btn_a{
+    background: #f195b2;
+    color: #fff;
+    line-height: 45px;
+    border-radius: 22px;
+    display: inline-block;
+    padding: 0px 32px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    overflow: hidden;
+    font-weight: 600;
+}
+
+.welcome_bakery_section_part1 .pink_btn_a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.welcome_bakery_section_part2 .main_title_welcome_h2{
+    color: #3e606b;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 38px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.welcome_bakery_section_part2 .main_title_welcome_h5{
+    font-size: 20px;
+    font-family: "Lora", serif;
+    color: #797979;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+.welcome_bakery_section_part2 .image_demo_bakery {
+    width: 100%;
+    height: auto;
+}
+
+.image_title .main_cake{
+    background: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(40, 40, 40, 0.08);
+    text-align: center;
+	margin-bottom: 30px;
+}
+
+
+.image_title .main_cake .cake_image{
+	position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.image_title .main_cake .cake_image:before{
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: all 300ms ease;
+    z-index: 1;
+    opacity: 0;
+}
+
+.image_title .main_cake .cake_text{
+	position: relative;
+}
+
+
+.main_cake .cake_text .main_title_welcome_h4{
+	width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: #343434;
+    font-size: 26px;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -35px;
+    line-height: 68px;
+    margin-bottom: 0px;
+    z-index: 2;
+}
+
+.main_cake .cake_text .main_title_welcome_h3{
+	font-size: 18px;
+    color: #343434;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 22px;
+    padding-top: 35px;
+}
+
+.pest_btn{
+    background: #94c9d9;
+    color: #fff;
+    line-height: 36px;
+    display: inline-block;
+    padding: 0px 25px;
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.pest_btn:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+/*About_bakery*/
+
+.about_bakery_section{
+	background: url(images/anhbanh6.jpg) no-repeat fixed center center;
+    background-size: cover;
+    padding: 85px 0px;
+    position: relative;
+}
+
+.about_bakery_section:before{
+    content: "";
+    height: 235px;
+    width: 2px;
+    background: #bcbfc1;
+    position: absolute;
+    left: 42%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.about_text .extra_title_about_h4{
+	font-size: 48px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.about_text .extra_title_about_p{
+    font-size: 20px;
+    color: #fff;
+    font-family: "Lora", serif;
+    font-style: italic;
+    line-height: 30px;
+    padding-right: 80px;
+    margin-bottom: 32px;
+}
+
+.about_text .w_view_btn:before{
+    background: #f195b2;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: .2;
+    position: absolute;
+    top: -50px;
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+    -webkit-transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    -o-transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+}
+
+.about_text .w_view_btn{
+    background: #fff;
+    color: #242424;
+    line-height: 45px;
+    display: inline-block;
+    padding: 0px 35px;
+    border-radius: 22px;
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    overflow: hidden;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 400ms linear 0s;
+}
+
+.about_text .w_view_btn:hover{
+    color: #f195b2;
+	text-decoration: none;
+}
+
+.Service_bakery_section{
+	background: url(images/anhnen.jpg) no-repeat  center center;
+    background-size: cover;
+    padding: 100px 0px 155px 0px;
+}
+
+.Service_bakery_section .serive_bakery_top{
+
+	margin-bottom: 75px;
+}
+
+.serive_bakery_top .serive_bakery_h2{
+    font-size: 36px;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+.serive_bakery_top .serive_bakery_h2:before{
+    content: "";
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: #fff;
+    height: 3px;
+}
+
+.serive_bakery_bottom .service_item{
+    font-size: 70px;
+    line-height: 70px;
+    color: #fff;
+}
+
+.serive_bakery_bottom .service_item:before{
+    font-size: 70px;
+}
+
+
+.serive_bakery_bottom .serive_bakery_h4{
+    font-size: 24px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    margin: 20px 0px 15px 0px;
+}
+
+.serive_bakery_bottom .serive_bakery_p{
+	font-size: 16px;
+    line-height: 26px;
+    font-family: "Open Sans", sans-serif;
+    padding-right: 30px;
+    margin-bottom: 0px;
+}
+
+
+
+.discover_menu_inner{
+	position: relative;
+}
+
+
+.discover_menu_inner:before{
+    content: "";
+    background: url(images/anhnentrai1.png) no-repeat scroll center center;
+    width: 260px;
+    height: 480px;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+
+.discover_menu_inner:after{
+    content: "";
+    background: url(images/anhnenphai1.png) no-repeat scroll center center;
+    width: 260px;
+    height: 640px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.discover_menu_inner .main_bakery_menu{
+	padding-bottom: 40px;
+}
+
+.main_bakery_menu .bakery_menu_h2{
+	color: #3e606b;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 38px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+
+}
+
+.main_bakery_menu .bakery_menu_h2:before{
+    content: "";
+    width: 45px;
+    height: 1px;
+    background: #acb2b4;
+    position: absolute;
+    right: -60px;
+    bottom: 7px;
+}
+
+.main_bakery_menu .bakery_menu_h5{
+    font-size: 20px;
+    font-family: "Lora", serif;
+    color: #797979;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+.discover_item_inner .discover_item{
+    border-bottom: 1px dashed #c8c8c8;
+    max-width: 542px;
+    margin-bottom: 20px;
+}
+
+.discover_item .discover_item_h4{
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    color: #242424;
+    margin-bottom: 10px;
+}
+
+.discover_item .discover_item_p{
+	font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #797979;
+    margin-bottom: 20px;
+}
+
+
+.discover_item_p span{
+    float: right;
+    color: #e3764b;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+
+.carousel_bakery{
+    background: #62c3e7;
+    height: 370px;
+}
+
+.carousel-item img{
+	padding-top: 25px;
+}
+
+
+
+ol.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -160px;
+    left: 0;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.carousel-item .carousel_item_p{
+    color: #fff;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: .66px;
+    font-family: "Lora", serif;
+    padding-top: 40px;
+    margin-bottom: 0px;
+
+}
+
+.carousel-item .carousel_item_p:before{
+    content: "";
+    height: 105px;
+    width: 2px;
+    background: #d0edf8;
+    position: absolute;
+    left: -35px;
+    top: 40px;
+}
+
+.carousel-item .carousel_item_h5{
+	color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: .66px;
+    font-family: "Lora", serif;
+    font-style: italic;
+    margin-bottom: 0px;
+    padding-top: 30px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    top: 65px;
+}
+
+.our_bakery_chef {
+    padding: 100px;
+    background: #f6f6f6;
+}
+
+.our_bakery_chef .bakery_chef_title_h2{
+    color: #3e606b;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 38px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.our_bakery_chef .bakery_chef_title_h2:before{
+    content: "";
+    width: 45px;
+    height: 1px;
+    background: #acb2b4;
+    position: absolute;
+    right: -60px;
+    bottom: 7px;
+
+}
+
+.our_bakery_chef .bakery_chef_title_p{
+	font-size: 16px;
+    line-height: 26px;
+    font-family: "Open Sans", sans-serif;
+    color: #797979;
+    font-style: normal;
+}
+
+
+
+.bakery_chef_item .chef_imgage:before {
+    content: "";
+    background: rgba(98, 195, 231, 0.9);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.our_bakery_chef .bakery_chef_item{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.chef_imgage .list_style{
+	position: absolute;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    bottom: 0px;
+    opacity: 0;
+    -webkit-transition: all 400ms linear 0s;
+    -o-transition: all 400ms linear 0s;
+    transition: all 400ms linear 0s;
+}
+
+.chef_img .list_style li a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.bakery_chef_item:hover .chef_imgage:before {
+    opacity: 1;
+}
+
+.our_chef_area{
+	background: #f6f6f6;
+}
+.our_chef_inner{
+	margin-bottom: -50px;
+}
+
+.our_chef_area {
+  background: #f6f6f6;
+  padding: 100px 0;
+}
+
+.our_chef_inner {
+  margin-bottom: -50px;
+}
+
+.chef_text_item .main_title p {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Open Sans", sans-serif;
+  color: #797979;
+  font-style: normal;
+}
+
+.chef_item {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.chef_item .chef_img {
+  overflow: hidden;
+  position: relative;
+}
+
+.chef_item .chef_img img {
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.chef_item .chef_img:hover img {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.chef_item .chef_img:before {
+  content: "";
+  background: rgba(98, 195, 231, 0.9);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.chef_item .chef_img .list_style {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  bottom: 0px;
+  opacity: 0;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.chef_item .chef_img .list_style li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.chef_item .chef_img .list_style li:last-child {
+  margin-right: 0px;
+}
+
+.chef_item .chef_img .list_style li a {
+  color: #fff;
+  font-size: 24px;
+}
+
+.chef_item a{
+	text-decoration: none;
+}
+
+.chef_item a:hover{
+	text-decoration: none;
+}
+
+.chef_item h4 {
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #242424;
+  margin-top: 18px;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.chef_item h4:hover {
+  color: #f195b2;
+
+}
+
+.chef_item h5 {
+  font-size: 16px;
+  font-family: "Lora", serif;
+  color: #797979;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+.chef_item:hover .chef_img:before {
+  opacity: 1;
+}
+
+.chef_item:hover .chef_img .list_style {
+  bottom: 30px;
+  opacity: 1;
+}
+
+.main_title h2 {
+    color: #3e606b;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 38px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.chef_text_item .main_title p {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Open Sans", sans-serif;
+    color: #797979;
+    font-style: normal;
+}
+
+.main_title h2:before {
+    content: "";
+    width: 45px;
+    height: 1px;
+    background: #acb2b4;
+    position: absolute;
+    right: -60px;
+    bottom: 7px;
+}
+
+.latest_news_area.gray_bg {
+  background: #f5f5f5;
+}
+
+.latest_news_area.golden_bg {
+  background: #f7f0e4;
+}
+
+.l_news_image {
+  position: relative;
+  overflow: hidden;
+}
+
+.l_news_image .l_news_hover {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 100%;
+  bottom: 35px;
+  color: #fff;
+  max-width: 300px;
+}
+
+.l_news_image .l_news_hover h5 {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.l_news_image .l_news_hover h4 {
+  font-size: 22px;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.l_news_item .l_news_img {
+  position: relative;
+  overflow: hidden;
+}
+
+.l_news_item .l_news_img:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.l_news_item .l_news_img img {
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.l_news_item .l_news_img:hover {
+  cursor: pointer;
+}
+
+.l_news_item .l_news_img:hover img {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.l_news_item .l_news_img:hover:hover:before {
+  opacity: 1;
+}
+
+.l_news_item .l_news_text h5 {
+  font-size: 13px;
+  color: #242424;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 25px;
+}
+
+.l_news_item .l_news_text h4 {
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #242424;
+  margin-bottom: 15px;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.l_news_item .l_news_text h4:hover {
+  color: #f195b2;
+}
+
+.l_news_item .l_news_text p {
+  font-size: 15px;
+  line-height: 26px;
+  color: #797979;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0px;
+}
+
+.l_news_text a:hover{
+	text-decoration: none;
+}
+
+.newsletter_area {
+  background: #f195b2;
+  padding: 35px 0px;
+}
+
+.newsletter_area.gray_bg {
+  background: #f5f5f5;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.newsletter_area.gray_bg .newsletter_inner {
+  border-top: 1px solid #d4d4d4;
+  padding-top: 55px;
+  padding-bottom: 65px;
+}
+
+.newsletter_area.gray_bg .newsletter_inner .news_left_text h4 {
+  color: #242424;
+}
+
+.newsletter_area.gray_bg .newsletter_inner .newsletter_form .input-group .input-group-append button {
+  background: #f195b2;
+  color: #fff;
+}
+
+.newsletter_inner .news_left_text h4 {
+  color: #fff;
+  margin-bottom: 0px;
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  max-width: 480px;
+}
+
+.newsletter_form .input-group {
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(40, 40, 40, 0.1);
+  box-shadow: 0px 0px 15px 0px rgba(40, 40, 40, 0.1);
+  margin-top: 3px;
+}
+
+.newsletter_form .input-group input {
+  background: #fff;
+  border: none;
+  height: 50px;
+  padding: 0px 25px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.newsletter_form .input-group input.placeholder {
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  color: #afaeae;
+  font-weight: normal;
+}
+
+.newsletter_form .input-group input:-moz-placeholder {
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  color: #afaeae;
+  font-weight: normal;
+}
+
+.newsletter_form .input-group input::-moz-placeholder {
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  color: #afaeae;
+  font-weight: normal;
+}
+
+.newsletter_form .input-group input::-webkit-input-placeholder {
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  color: #afaeae;
+  font-weight: normal;
+}
+
+.newsletter_form .input-group .input-group-append {
+  margin: 0px;
+}
+
+.newsletter_form .input-group .input-group-append button {
+  margin-left: 0px;
+  border: none;
+  background: #e6dbdf;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  width: 170px;
+  font-weight: 600;
+  padding: 0px;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.footer_area {
+  background: #303339;
+  overflow: hidden;
+}
+
+.footer_widgets {
+  padding: 80px 0px 50px 0px;
+}
+
+.footer_widgets .footer_wd_inner .col-lg-3:nth-child(2) .f_link_widget {
+  padding-left: 35px;
+}
+
+.f_title {
+  margin-bottom: 20px;
+}
+
+.f_title h3 {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+.f_title h3:before {
+  content: "";
+  width: 30px;
+  height: 1px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background: #f195b2;
+}
+
+.f_about_widget p {
+  font-size: 14px;
+  line-height: 23px;
+  font-family: "Open Sans", sans-serif;
+  color: #a8a8a8;
+  letter-spacing: .28px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.f_about_widget .nav {
+  margin-top: 35px;
+}
+
+.f_about_widget .nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.f_about_widget .nav li a {
+  display: inline-block;
+  text-align: center;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  color: #fff;
+  border: 1px solid #7b7b7c;
+  font-size: 16.92px;
+  line-height: 35px;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.f_about_widget .nav li:hover a {
+  color: #f195b2;
+  border-color: #f195b2;
+}
+
+.f_about_widget .nav li:last-child {
+  margin-right: 0px;
+}
+
+.f_link_widget .list_style li {
+  margin-bottom: 10px;
+}
+
+.f_link_widget .list_style li a {
+  font-size: 14px;
+  color: #a8a8a8;
+  letter-spacing: .28px;
+  font-family: "Open Sans", sans-serif;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.f_link_widget .list_style li:hover a {
+  color: #f195b2;
+}
+
+.f_contact_widget h4 {
+  font-size: 18px;
+  color: #a8a8a8;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.f_contact_widget p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #a8a8a8;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0px;
+}
+
+.f_contact_widget h5 {
+  font-size: 14px;
+  line-height: 26px;
+  color: #a8a8a8;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0px;
+}
+
+.footer_copyright .copyright_inner {
+  overflow: hidden;
+  border-top: 1px solid #3b3e43;
+  padding: 32px 0px 30px 0px;
+}
+
+.footer_copyright .copyright_inner .float-left h5 {
+  font-size: 14px;
+  color: #767676;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0px;
+}
+
+.footer_copyright .copyright_inner .float-right a {
+  color: #f195b2;
+  font-family: "Open Sans", sans-serif;
+}
